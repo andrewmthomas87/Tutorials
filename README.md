@@ -1,14 +1,23 @@
-# Javascript Challenges
+# Web Development Tutorials/Challenges
 ```js
 var repository = []
-repository.push('a collection of ordered Javascript programming challenges')
-repository.push('and sample solutions')
+repository.push('HTML, CSS, and Javascript tutorials')
+repository.push('a collection of programming challenges')
+repository.push('sample solution code and writeups')
 
-console.log('This repository contains ')
+console.log('This repository contains')
 for (var i = 0, length = repository.length; i < length; i++) {
-  console.log(repository[i])
+  console.log(' - ' + repository[i])
 }
 ```
+```
+This repository contains
+ - HTML, CSS, and Javascript tutorials
+ - a collection of programming challenges
+ - sample solution code and writeups
+```
 ## Introduction
-Before diving in, let's throw out a common misconception. Javascript is not Java. There are a few similarities but overall Javascript is a very different language than Java.
-> Java is to Javascript what Car is to Carpet
+Before diving in, let's throw out a common misconception. ~~Javascript is Java~~. Javascript is actually an entirely different programming language than Java. Javascript and Java are similar in some ways but fundamentally different in others.
+> Javascript is to Java as carpet is to car
+
+So what is Javascript? Javascript is a small and lightweight, cross-platform, object-oriented scripting language. Javascript is generally found in two flavors, `client-side` Javascript and `server-side` Javascript. In these tutorials and challenges, the focus is on `client-side` code. Basic HTML and CSS is covered as well, but emphasis is placed on Javascript.
