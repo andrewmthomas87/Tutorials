@@ -43,13 +43,11 @@ Basic
     │   │   README.md
     │   │   solution.java
     │   │   template.java
-    │
     ├───Javascript
     │   │   index.html
     │   │   README.md
     │   │   solution.js
     │   │   template.js
-    │
 ```
 Solution writeups for each challenge are located in the [Wiki](https://github.com/andrewmthomas87/Tutorials/wiki). Other tutorials on additional development tools such as `git` are located there as well.
 ## Java
