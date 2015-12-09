@@ -2,13 +2,13 @@
 ```java
 // Java
 static String[] repository = new String[3];
-repository[0] = 'Java and Javascript tutorials';
-repository[1] = 'a collection of programming challenges';
-repository[2] = 'sample solution code and writeups';
+repository[0] = "Java and Javascript tutorials";
+repository[1] = "a collection of programming challenges";
+repository[2] = "sample solution code and writeups";
 
-System.out.println('This repository contains');
+System.out.println("This repository contains");
 for (int i = 0, length = repository.length; i < length; i++) {
-	System.out.println(' - ' + repository[i]);
+	System.out.println(" - " + repository[i]);
 }
 ```
 ```js
@@ -42,7 +42,7 @@ Basic
     ├───Java
     │   │   README.md
     │   │   solution.java
-    │   │   template.java
+    │   │   app.java
     ├───Javascript
     │   │   index.html
     │   │   README.md
