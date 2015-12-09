@@ -11,3 +11,5 @@ for (var multiple = 5; multiple < 1000; multiple = multiple + 5) {
 }
 
 console.log(sum)
+
+// 233168
