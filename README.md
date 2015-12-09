@@ -1,5 +1,6 @@
 # Programming Tutorials/Challenges
 ```java
+// Java
 static String[] repository = new String[3];
 repository[0] = 'Java and Javascript tutorials';
 repository[1] = 'a collection of programming challenges';
@@ -11,6 +12,7 @@ for (int i = 0, length = repository.length; i < length; i++) {
 }
 ```
 ```js
+// Javascript
 var repository = []
 repository.push('Java and Javascript tutorials')
 repository.push('a collection of programming challenges')
