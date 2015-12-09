@@ -30,12 +30,12 @@ This repository contains
  - sample solution code and writeups
 ```
 ## Introduction
-The aim of this repository is to teach basic to advanced programming concepts.
+The aim of this repository is to teach programming concepts from the very basic to the very advanced.
 > Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
 
 Both Java and Javascript solutions and writeups are provided for each challenge, as well as additional language-specific tutorials and tutorials on additional development tools. Challenges are divided into several difficulty levels: `Basic`, `Intermediate`, and `Advanced`. Challenges of each difficulty are found within their respective directory. Within each difficulty directory are located numbered challenge directories. The challenges are ordered such that higher numbered challenges build upon concepts covered in lower numbered challenges.
 
-Located inside each challenge directory is a `README` file which describes the challenge. Also included is a small extra challenge which expands upon the initial challenge. Template files to start the challenge with are located within each of the language directories. Also provided are solution files containing example solution code. Below is an example of the directory structure.
+Located inside each challenge directory is a `README` file which describes the challenge. This file also includes a small extra challenge which expands upon the initial challenge. Template files to start the challenge with are located within each of the language directories. Also provided are solution files containing example solution code. Below is an example of the directory structure.
 ```
 Basic
 └───Challenge 1
