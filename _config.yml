@@ -1,10 +1,13 @@
-title: 'Programming Tutorials/Challenges'
-logo: logo.png
+title: Programming
 email: andrewmthomas87@gmail.com
 description: >
-  Programming tutorials and challenges in Java and Javascript
+  Programming tutorials and challenges
+baseurl: '/Tutorial'
 url: 'http://andrewthomas.us'
-baseurl: '/Tutorials'
-github_username:  andrewthomas87
+github_username: andrewmthomas87
 
-markdown: kramdown
+markdown: redcarpet
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ['tables', 'autolink', 'strikethrough', 'space_after_headers', 'fenced_code_blocks']

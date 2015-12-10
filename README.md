@@ -1,33 +1,18 @@
-# Joon: Roon theme for Jekyll
+# Polar Bear
+An open source minimal theme for Jekyll, ideal for blogging.
 
-Jekyll theme based on the Roon for [Ghost](http://github.com/tryghost/roon/).
+View the demo at http://diezcami.github.io/polar-bear-theme
 
-## Demo
-View this jekyll theme in action [here](https://vormwald.github.io/joon)
+## Contribute
+Please submit **open issues** for bugs or TBA features that haven't been documented yet! Feel free to submit pull requests for any existing issues.
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/vormwald/joon/master/screenshot.png)
+## License
+The MIT License (MIT)
 
-## Font Options
+Copyright (c) 2015 Camille Diez
 
-This theme comes with two font options; a serif and sans-serif (the default). 
-Switching between them is done in the HTML, by adding `serif` to the `class` of 
-the `<body>` element in [head.html](https://github.com/vormwald/joon/blob/master/_layouts/default.html.hbs#L6).
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Colour Options
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-This theme uses an accent colour for links and the border at the top of pages.
-
-To change this colour, you need to edit [assets/css/screen.css](https://github.com/vormwald/joon/blob/master/assets/css/screen.css).
-
-There are only two values you need to change, conveniently **located at the very
-top of the file**.
-
-## For More Information
-For more on Jekyll, read the [documentation](http://jekyllrb.com/)
-
-
-## Copyright & License
-
-Roon is Copyright (c) 2013-2015 Sam Soffes & Ghost Foundation - Released under 
-the [MIT license](LICENSE).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
