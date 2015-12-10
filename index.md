@@ -35,7 +35,7 @@ This repository contains
  - sample solution code and writeups
 ```
 ## Introduction
-The aim of this repository is to teach programming concepts from the very basic to the very advanced.
+The aim of this website is to teach programming concepts from the very basic to the very advanced.
 > Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
 
 Both Java and Javascript solutions and writeups are provided for each challenge, as well as additional language-specific tutorials and tutorials on additional development tools. Challenges are divided into several difficulty levels: `Basic`, `Intermediate`, and `Advanced`. Challenges of each difficulty are found within their respective directory. Within each difficulty directory are located numbered challenge directories. The challenges are ordered such that higher numbered challenges build upon concepts covered in lower numbered challenges.
