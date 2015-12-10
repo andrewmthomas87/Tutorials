@@ -4,7 +4,6 @@ title: Programming Tutorials/Challenges
 permalink: /
 ---
 
-# Programming Tutorials/Challenges
 ```java
 // Java
 static String[] repository = new String[3];
