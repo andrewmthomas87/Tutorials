@@ -1,18 +1,60 @@
-# Polar Bear
-An open source minimal theme for Jekyll, ideal for blogging.
+# Programming Tutorials/Challenges
+```java
+// Java
+static String[] repository = new String[3];
+repository[0] = "Java and Javascript tutorials";
+repository[1] = "a collection of programming challenges";
+repository[2] = "sample solution code and writeups";
 
-View the demo at http://diezcami.github.io/polar-bear-theme
+System.out.println("This repository contains");
+for (int i = 0, length = repository.length; i < length; i++) {
+	System.out.println(" - " + repository[i]);
+}
+```
+```js
+// Javascript
+var repository = []
+repository.push('Java and Javascript tutorials')
+repository.push('a collection of programming challenges')
+repository.push('sample solution code and writeups')
 
-## Contribute
-Please submit **open issues** for bugs or TBA features that haven't been documented yet! Feel free to submit pull requests for any existing issues.
+console.log('This repository contains')
+for (var i = 0, length = repository.length; i < length; i++) {
+  console.log(' - ' + repository[i])
+}
+```
+```
+This repository contains
+ - Java and Javascript tutorials
+ - a collection of programming challenges
+ - sample solution code and writeups
+```
+## Introduction
+The aim of this website is to teach programming concepts from the very basic to the very advanced.
+> Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
 
-## License
-The MIT License (MIT)
+Both Java and Javascript solutions and writeups are provided for each challenge, as well as additional language-specific tutorials and tutorials on additional development tools. Challenges are divided into several difficulty levels: `Basic`, `Intermediate`, and `Advanced`. Challenges of each difficulty are found within their respective directory. Within each difficulty directory are located numbered challenge directories. The challenges are ordered such that higher numbered challenges build upon concepts covered in lower numbered challenges.
 
-Copyright (c) 2015 Camille Diez
+Located inside each challenge directory is a `README` file which describes the challenge. This file also includes a small extra challenge which expands upon the initial challenge. Template files to start the challenge with are located within each of the language directories. Also provided are solution files containing example solution code. Below is an example of the directory structure.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+```
+Basic
+└───Challenge 1
+    ├───Java
+    │   │   README.md
+    │   │   solution.java
+    │   │   app.java
+    ├───Javascript
+    │   │   index.html
+    │   │   README.md
+    │   │   solution.js
+    │   │   template.js
+```
+Solution writeups for each challenge are located in the [Wiki](https://github.com/andrewmthomas87/Tutorials/wiki). Other tutorials on additional development tools such as `git` are located there as well.
+## Java
+Java introduction here.
+## Javascript
+To start off, let's throw out a common misconception. ~~Javascript is Java~~ (not true). Javascript is actually an entirely different programming language than Java. Javascript and Java are similar in some ways but fundamentally different in others.
+> Javascript is to Java as carpet is to car
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+So what is Javascript? Javascript is a small and lightweight, cross-platform, object-oriented scripting language. Javascript is generally found in two flavors, `client-side` Javascript and `server-side` Javascript. In these tutorials and challenges, the focus is on `client-side` code, but mainly just the core Javascript language. Although basic HTML is included to allow for running challenge code in a browser, the focus is on Javascript.

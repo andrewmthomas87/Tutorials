@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Programming Tutorials/Challenges
+title: Home
 permalink: /
 ---
 
